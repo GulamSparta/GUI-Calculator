@@ -54,5 +54,14 @@ namespace Calculator
             MessageBox.Show("Button has recieved focus");
         }
 
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
