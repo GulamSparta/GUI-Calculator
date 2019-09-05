@@ -16,11 +16,14 @@ using Calculator;
 
 namespace Calculator
 {
+    
     /// <summary>
+    /// 
     /// Interaction logic for MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
+        
         public MainWindow()
         {
             InitializeComponent();
@@ -33,17 +36,12 @@ namespace Calculator
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-           MessageBox.Show("Result is " + ValueBoxOne + ValueBoxTwo);
-        }
-
-        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
-
-        private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e)
-        {
-
+            double number1 = Convert.ToDouble(ValueBoxOne.Text), number2 = Convert.ToDouble(number1);
+            Calculator c = new Calculator();
+            if (Steve.Text == "Add")
+            {
+                MessageBox.Show("Result is " + c.Add(number1, number2));
+            }
         }
 
         private void test(object sender, StylusDownEventArgs e)
@@ -55,5 +53,6 @@ namespace Calculator
         {
             MessageBox.Show("Button has recieved focus");
         }
+
     }
 }

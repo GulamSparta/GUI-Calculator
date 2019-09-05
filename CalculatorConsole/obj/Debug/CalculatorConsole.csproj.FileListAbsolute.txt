@@ -1,0 +1,7 @@
+C:\Users\Public\Visual Studio Projects\Week 4\Day 3 Work\Calculator\CalculatorConsole\bin\Debug\CalculatorConsole.exe.config
+C:\Users\Public\Visual Studio Projects\Week 4\Day 3 Work\Calculator\CalculatorConsole\bin\Debug\CalculatorConsole.exe
+C:\Users\Public\Visual Studio Projects\Week 4\Day 3 Work\Calculator\CalculatorConsole\bin\Debug\CalculatorConsole.pdb
+C:\Users\Public\Visual Studio Projects\Week 4\Day 3 Work\Calculator\CalculatorConsole\obj\Debug\CalculatorConsole.csprojAssemblyReference.cache
+C:\Users\Public\Visual Studio Projects\Week 4\Day 3 Work\Calculator\CalculatorConsole\obj\Debug\CalculatorConsole.csproj.CoreCompileInputs.cache
+C:\Users\Public\Visual Studio Projects\Week 4\Day 3 Work\Calculator\CalculatorConsole\obj\Debug\CalculatorConsole.exe
+C:\Users\Public\Visual Studio Projects\Week 4\Day 3 Work\Calculator\CalculatorConsole\obj\Debug\CalculatorConsole.pdb

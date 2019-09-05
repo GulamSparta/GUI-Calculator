@@ -19,8 +19,8 @@ namespace Calculator
     {
         public double Divide(double num1, double num2)
         {
-            double result = num1 / num2;
-            return result;
+            //double result = num1 / num2;
+            return num1 / num2;
         }
 
         public double Add(double Addnum1, double Addnum2)

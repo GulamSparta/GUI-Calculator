@@ -7,23 +7,23 @@
         mc:Ignorable="d"
         Title="Calculator" Height="406.8" Width="686">
     <Grid Margin="0,0,152.6,65">
-        <TextBox x:Name="ValueBoxOne" HorizontalAlignment="Left" Height="35" Margin="106,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="341" TextChanged="TextBox_TextChanged">
+        <TextBox x:Name="ValueBoxOne" HorizontalAlignment="Left" Height="35" Margin="106,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="341">
             <TextBox.Effect>
                 <DropShadowEffect/>
             </TextBox.Effect>
         </TextBox>
-        <TextBox x:Name="ValueBoxTwo" HorizontalAlignment="Left" Height="35" Margin="106,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="341" TextChanged="TextBox_TextChanged_1">
+        <TextBox x:Name="ValueBoxTwo" HorizontalAlignment="Left" Height="35" Margin="106,156,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="341">
             <TextBox.Effect>
                 <DropShadowEffect/>
             </TextBox.Effect>
         </TextBox>
         <Label Content="Value 1" HorizontalAlignment="Left" Margin="10,51,0,0" VerticalAlignment="Top" Height="47" Width="91" FontSize="20"/>
         <Label Content="Value 2" HorizontalAlignment="Left" Margin="10,144,0,0" VerticalAlignment="Top" Height="47" Width="91" FontSize="20"/>
-        <ComboBox HorizontalAlignment="Left" Margin="252,257,0,0" VerticalAlignment="Top" Width="120">
+        <ComboBox x:Name="Steve" HorizontalAlignment="Left" Margin="252,257,0,0" VerticalAlignment="Top" Width="120" SelectionChanged="ComboBox_SelectionChanged">
             <ComboBoxItem Content="Add&#xD;&#xA;" HorizontalAlignment="Left" Width="118.4"/>
             <ComboBoxItem Content="Subtract&#xD;&#xA;" HorizontalAlignment="Left" Width="118.4"/>
             <ComboBoxItem Content="Multiply&#xD;&#xA;" HorizontalAlignment="Left" Width="118.4"/>
         </ComboBox>
-        <Button Content="Calculate" HorizontalAlignment="Left" Margin="39,254,0,0" VerticalAlignment="Top" Width="103" Height="42" FontSize="20" GotFocus="Main"/>
+        <Button Content="Calculate" HorizontalAlignment="Left" Margin="39,254,0,0" VerticalAlignment="Top" Width="103" Height="42" FontSize="20" GotFocus="Main" Click="Button_Click_1"/>
     </Grid>
 </Window>
